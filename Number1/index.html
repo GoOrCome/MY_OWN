@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone - Apple (IN)</title>
-    <link rel="shortcut icon" href="./images/ram.png"  type="image/x-icon">
+    <link rel="shortcut icon" href="./images/ram.png" type="image/x-icon">
 </head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .nav_ul{
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .nav_li{
+        list-style: none;
+        height: 29px;
+        width: 100px;
+        border: 1px solid green;
+    }
+</style>
+
 <body>
     <div class="container">
         <nav class="">
@@ -21,10 +44,13 @@
                 <li class="nav_li"></li>
                 <li class="nav_li"></li>
                 <li class="nav_li"></li>
-                <li class="nav_li"></li>
-                <li class="nav_li"></li>
+                <div class="ul_scarch_shop">
+                    <li class="nav_li"></li>
+                    <li class="nav_li"></li>
+                </div>
             </ul>
         </nav>
     </div>
 </body>
+
 </html>
