@@ -8,32 +8,53 @@
     <link rel="shortcut icon" href="./images/ram.png" type="image/x-icon">
 </head>
 <style>
-    *{
+    * {
         padding: 0px;
         margin: 0px;
     }
-    .container{
+
+    .container {
+        border: 1px solid red;
         display: grid;
         grid-template-columns: auto;
     }
-    .nav_ul{
+
+    .nav_main {
+        width: 100%;
         display: flex;
         justify-content: center;
-        /* border: 1px solid red; */
     }
-    .nav_li{
+
+    .nav_ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    .nav_li {
+        display: flex;
+        justify-content: center;
+        position: relative;
         list-style: none;
         height: 29px;
         width: 100px;
         border: 1px solid green;
     }
+
+    .apple_icon {
+        width: 37%;
+        height: 76%;
+    }
 </style>
 
 <body>
     <div class="container">
-        <nav class="">
+        <nav class="nav_main">
             <ul class="nav_ul">
-                <li class="nav_li"></li>
+                <li class="nav_li">
+                    <img class="apple_icon" src="images/ram.png" alt="error">
+                </li>
                 <li class="nav_li"></li>
                 <li class="nav_li"></li>
                 <li class="nav_li"></li>
