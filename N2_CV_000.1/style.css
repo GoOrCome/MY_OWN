@@ -1,4 +1,5 @@
 *{
+    font-family: sans-serif;
     margin: 0px;
     padding: 0px;
     border: 1px solid red;
@@ -58,4 +59,12 @@
     text-decoration: none;
     font-family: "Noto Sans TC", sans-serif;
     color: white;
+}
+
+
+.footerHead{
+    background-color: #6f7845;
+    width: 100vw;
+    display: flex;
+    height: 70px;
 }
