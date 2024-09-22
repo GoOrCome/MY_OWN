@@ -11,10 +11,19 @@
     position: relative;
     background-color: #6f7845;
 }
-
+.My_img img{
+    background-color: #fff;
+}
+.My_img img:hover{
+    scale: 0.99;
+    padding: 4px;
+}
 .My_img {
     width: 40vw;
     height: 390px;
+}
+.My_img:hover{
+    cursor: pointer;
 }
 
 .My_img img {
