@@ -1,43 +1,62 @@
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: 1px solid red;
 }
-.headSection{
+
+.headSection {
     width: 100vw;
     height: 395px;
     position: relative;
-    background-color: rgb(98, 151, 20);
+    background-color: #6f7845;
 }
-.My_img img{
+
+.My_img {
+    width: 40vw;
+    height: 390px;
+}
+
+.My_img img {
     position: absolute;
     top: 111px;
     left: 154px;
-    border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     width: 433px;
     height: 436px;
 }
-.headDIV{
+
+.headDIV {
     border: 1px solid rgb(187, 102, 102);
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     justify-content: space-between;
 }
-.head2DIV{
+
+.head2DIV {
+    height: 390px;
     border: 1px solid white;
-    height: 100%;
-    width: 50vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60vw;
+    font-family: "Noto Sans TC", sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 }
-.headText{
+
+.headText {
     color: #fff;
 }
-.headLINKS a{
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.headLINKS{
+    margin-top: 10px;
+}
+.headLINKS a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 50px;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Noto Sans TC", sans-serif;
     color: white;
 }
